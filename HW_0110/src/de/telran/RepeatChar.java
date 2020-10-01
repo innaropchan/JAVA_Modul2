@@ -29,7 +29,7 @@ public class RepeatChar {
                 d++;
             }
         }
-        return "a" + a + "b" + b + "c" + c + "d" + ;
+        return "a" + a + "b" + b + "c" + c + "d" + d;
     }
 
 }
