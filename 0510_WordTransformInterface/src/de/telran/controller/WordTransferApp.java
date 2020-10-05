@@ -8,6 +8,6 @@ public class WordTransferApp {
 
         System.out.println(Transferable.createRules("AGHJ kLU jgkslg ttt ",1));
         System.out.println(Transferable.createRules("AGHJ kLU jgkslg ttt ", 2));
-        System.out.println(Transferable.createRules("AGHJ kLU jgkslg ttt ", 0));  //не получилось
+        System.out.println(Transferable.createRules("AGHJ kLU jgkslg ttt ", 3));  //не получилось
     }
 }
