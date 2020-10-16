@@ -18,9 +18,9 @@ public class ShapeApp {
         Rectangle r2 = new Rectangle(Color.RED, 6, 2);
 
         Triangle tr1 = new RightTriangle(Color.YELLOW, 4, 8);
-        Shape tr2 = new EquilateralTriangle(Color.BLACK, 7);
+       // Shape tr2 = new EquilateralTriangle(Color.BLACK);
 
-        Shape[] shapes = {shape, circle1, square, c1, c2, sq2, sq1, r1, r2, tr1, tr2};
+        Shape[] shapes = {shape, circle1, square, c1, c2, sq2, sq1, r1, r2, tr1};
 
         // Shape.displayAreaFromShapesArray(shapes);
 

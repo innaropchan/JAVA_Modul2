@@ -15,7 +15,7 @@ public interface Transferable {
                 return input.toLowerCase();
             case 3:
                 TransferRuleLength6 tr3 = new TransferRuleLength6();
-                return input.replaceAll(input, "******");
+                return input.replaceAll(".", "*");
             default:
                 return null;
         }
